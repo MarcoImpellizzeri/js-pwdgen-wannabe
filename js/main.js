@@ -9,3 +9,4 @@ document.getElementById("lastname").innerHTML = lastName;
 document.getElementById("color").innerHTML = favColor;
 document.getElementById("age").innerHTML = age;
 document.getElementById("password").innerHTML = firstName + lastName + favColor + "21";
+document.getElementById("bonus-password").innerHTML = firstName + lastName + favColor + (21 + parseInt(age));
